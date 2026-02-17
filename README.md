@@ -35,7 +35,8 @@ This helps reduce lending risk and improve credit approval decisions.
 
 ## 📊 Dataset Overview
 
-- **File:** `loan_dataset.csv`  
+- **File:** [`loan_dataset.csv`](data/loan_dataset.csv)  
+- **External download link:** [Download Dataset](https://www.kaggle.com/datasets/someuser/loan-dataset)  
 - **Features include:**  
   - Credit Policy  
   - FICO Score  
@@ -114,11 +115,13 @@ Key insights explored through visualizations:
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/your-username/loan-default-random-forest.git
+git clone https://github.com/your-username/RandomForestClassifier.git
 cd loan-default-random-forest
 python -m venv venv
+
 # Activate environment
 venv\Scripts\activate     # Windows
 source venv/bin/activate  # Linux / Mac
+
 pip install -r requirements.txt
 python random_forest_project.py
