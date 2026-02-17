@@ -115,7 +115,7 @@ Key insights explored through visualizations:
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/your-username/loan-default-random-forest.git
+git clone https://github.com/your-username/RandomForestClassifier.git
 cd loan-default-random-forest
 python -m venv venv
 
